@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Brotkrueml\SchemaAuto\:
+    resource: '../Classes/*'
+    exclude: '../Classes/{Model,ViewHelpers}'
+
+  Brotkrueml\SchemaAuto\EventListener\RegisterAdditionalProperties:
+    tags:
+      - name: event.listener
+        identifier: 'ext-schema-auto/registerAdditionalProperties'
+        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent
