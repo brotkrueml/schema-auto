@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Allow usage with EXT:schema v2
+
 ## [1.0.1] - 2021-04-08
 
 ### Fixed
