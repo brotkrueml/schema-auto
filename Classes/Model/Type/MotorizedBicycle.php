@@ -31,6 +31,7 @@ final class MotorizedBicycle extends AbstractType
         'cargoVolume',
         'category',
         'color',
+        'countryOfOrigin',
         'dateVehicleFirstRegistered',
         'depth',
         'description',

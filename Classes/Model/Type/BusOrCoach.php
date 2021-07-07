@@ -32,6 +32,7 @@ final class BusOrCoach extends AbstractType
         'cargoVolume',
         'category',
         'color',
+        'countryOfOrigin',
         'dateVehicleFirstRegistered',
         'depth',
         'description',
