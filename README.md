@@ -10,4 +10,4 @@ related to auto: https://schema.org/docs/auto.home.html.
 [Documentation](https://docs.typo3.org/p/brotkrueml/schema-auto/main/en-us/) |
 [Changelog](https://github.com/brotkrueml/schema-auto/blob/main/CHANGELOG.md) |
 [TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_auto) |
-[Slack #ext-schema](https://typo3.slack.com/archives/CV36M73D5)
+[Forum](https://github.com/brotkrueml/schema/discussions)
