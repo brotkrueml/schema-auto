@@ -43,6 +43,7 @@ additional schema.org terms related to auto.
    Introduction/Index
    Installation/Index
    Developer/Index
+   Changelog/Index
 
 .. toctree::
    :hidden:
