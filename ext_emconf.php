@@ -9,11 +9,12 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => true,
     'author' => 'Chris Müller',
     'author_email' => 'typo3@krue.ml',
-    'version' => '1.3.0',
+    'version' => '2.0.0-dev',
     'constraints' => [
         'depends' => [
-            'schema' => '1.7.0-2.99.99',
-            'typo3' => '10.4.11-12.4.99',
+            'php' => '8.1.0-0.0.0',
+            'schema' => '3.0.0-3.99.99',
+            'typo3' => '11.5.19-12.4.99',
         ],
         'conflicts' => [],
         'suggests' => [],

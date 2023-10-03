@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaAuto\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A motorcycle or motorbike is a single-track, two-wheeled motor vehicle.
  */
+#[Type('Motorcycle')]
 final class Motorcycle extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'accelerationTime',
         'additionalProperty',
         'additionalType',

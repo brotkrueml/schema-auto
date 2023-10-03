@@ -6,10 +6,8 @@ services:
 
   Brotkrueml\SchemaAuto\:
     resource: '../Classes/*'
-    exclude: '../Classes/Model'
 
   Brotkrueml\SchemaAuto\EventListener\RegisterAdditionalProperties:
     tags:
       - name: event.listener
         identifier: 'ext-schema-auto/registerAdditionalProperties'
-        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent

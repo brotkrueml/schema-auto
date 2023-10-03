@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaAuto\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A bus (also omnibus or autobus) is a road vehicle designed to carry passengers. Coaches are luxury busses, usually in service for long distance travel.
  */
+#[Type('BusOrCoach')]
 final class BusOrCoach extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'accelerationTime',
         'acrissCode',
         'additionalProperty',

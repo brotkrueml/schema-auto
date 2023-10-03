@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaAuto\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A value indicating a special usage of a car, e.g. commercial rental, driving school, or as a taxi.
  */
+#[Type('CarUsageType')]
 final class CarUsageType extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'description',

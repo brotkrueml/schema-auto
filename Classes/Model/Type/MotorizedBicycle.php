@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaAuto\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A motorized bicycle is a bicycle with an attached motor used to power the vehicle, or to assist with pedaling.
  */
+#[Type('MotorizedBicycle')]
 final class MotorizedBicycle extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'accelerationTime',
         'additionalProperty',
         'additionalType',
