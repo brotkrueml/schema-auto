@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaAuto\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * A bus (also omnibus or autobus) is a road vehicle designed to carry passengers. Coaches are luxury busses, usually in service for long distance travel.
+ * A bus (also omnibus or autobus) is a road vehicle designed to carry passengers. Coaches are luxury buses, usually in service for long distance travel.
  */
 final class BusOrCoachViewHelper extends AbstractTypeViewHelper
 {
