@@ -12,9 +12,8 @@ related to auto: https://schema.org/docs/auto.home.html.
 | Latest release | TYPO3       | PHP   | EXT:schema | Updates will contain             |
 |----------------|-------------|-------|------------|----------------------------------|
 | 2.x            | 11.5 - 13.4 | ≥ 8.1 | 3.x        | Features, security and bug fixes |
-| 1.x            | 10.4 - 12.4 | ≥ 7.2 | 1.x - 2.x  | Security and bug fixes           |
+| 1.x            | 10.4 - 12.4 | ≥ 7.2 | 1.x - 2.x  | End of life                      |
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/schema-auto/main/en-us/) |
 [Changelog](https://github.com/brotkrueml/schema-auto/blob/main/CHANGELOG.md) |
-[TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_auto) |
-[Forum](https://github.com/brotkrueml/schema/discussions)
+[TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_auto)
