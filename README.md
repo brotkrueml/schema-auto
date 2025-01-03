@@ -1,6 +1,8 @@
 # Extend the TYPO3 schema extension with auto-related terms
 
-[![CI Status](https://github.com/brotkrueml/schema-auto/workflows/CI/badge.svg?branch=main)](https://github.com/brotkrueml/schema-auto/actions?query=workflow%3ACI)
+[![CI](https://github.com/brotkrueml/schema-auto/actions/workflows/ci.yml/badge.svg)](https://github.com/brotkrueml/schema-auto/actions/workflows/ci.yml)
+[![Documentation](https://github.com/brotkrueml/schema-auto/actions/workflows/docs.yaml/badge.svg)](https://github.com/brotkrueml/schema-auto/actions/workflows/docs.yaml)
+[![Latest Stable Version](https://img.shields.io/packagist/v/brotkrueml/schema-auto.svg?label=stable)](https://packagist.org/packages/brotkrueml/schema-auto)
 
 This TYPO3 extension is an add-on to the
 [schema](https://extensions.typo3.org/extension/schema) extension.
