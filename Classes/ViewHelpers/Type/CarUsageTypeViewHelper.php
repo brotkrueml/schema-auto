@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * A value indicating a special usage of a car, e.g. commercial rental, driving school, or as a taxi.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class CarUsageTypeViewHelper extends AbstractTypeViewHelper
 {

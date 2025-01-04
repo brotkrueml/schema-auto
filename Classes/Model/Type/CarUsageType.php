@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A value indicating a special usage of a car, e.g. commercial rental, driving school, or as a taxi.
+ * @deprecated This type represents an enumeration, use the specific CarUsageType enum instead.
  */
 #[Type('CarUsageType')]
 final class CarUsageType extends AbstractType
