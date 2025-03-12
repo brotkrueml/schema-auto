@@ -6,8 +6,3 @@ services:
 
   Brotkrueml\SchemaAuto\:
     resource: '../Classes/*'
-
-  Brotkrueml\SchemaAuto\EventListener\RegisterAdditionalProperties:
-    tags:
-      - name: event.listener
-        identifier: 'ext-schema-auto/registerAdditionalProperties'
