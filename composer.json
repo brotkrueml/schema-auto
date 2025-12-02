@@ -1,6 +1,6 @@
 {
 	"name": "brotkrueml/schema-auto",
-	"description": "Extend the TYPO3 schema extension with auto-related terms",
+	"description": "Schema.org extension for auto - Extend the schema extension with auto-related terms",
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"keywords": [
