@@ -77,6 +77,7 @@ final class MotorizedBicycle extends AbstractType
         'numberOfForwardGears',
         'numberOfPreviousOwners',
         'offers',
+        'owner',
         'payload',
         'potentialAction',
         'productID',

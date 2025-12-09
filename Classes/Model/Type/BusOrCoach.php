@@ -78,6 +78,7 @@ final class BusOrCoach extends AbstractType
         'numberOfForwardGears',
         'numberOfPreviousOwners',
         'offers',
+        'owner',
         'payload',
         'potentialAction',
         'productID',
