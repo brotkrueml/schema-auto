@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaAuto\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Car implements AdditionalPropertiesInterface
+final readonly class Car implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {
