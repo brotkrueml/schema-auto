@@ -25,8 +25,8 @@
 	},
 	"require": {
 		"php": ">=8.2",
-		"brotkrueml/schema": "^4.0",
-		"typo3/cms-core": "^13.4 || ^14.0"
+		"brotkrueml/schema": "^4.3.x-dev",
+		"typo3/cms-core": "^13.4 || ^14.3"
 	},
 	"require-dev": {
 		"brotkrueml/coding-standards": "~6.3.0",
