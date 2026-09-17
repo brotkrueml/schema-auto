@@ -18,6 +18,7 @@ Removed
 * Compatibility with EXT:schema version 3
 * Compatibility with TYPO3 v11
 * Compatibility with TYPO3 v12
+* Types and view helpers representing enumerations
 
 `2.6.0 <https://github.com/brotkrueml/schema-auto/compare/v2.5.0...v2.6.0>`_ - 2025-12-09
 ---------------------------------------------------------------------------------------------
