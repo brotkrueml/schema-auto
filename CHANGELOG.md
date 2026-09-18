@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2026-09-18
+
 ### Updated
 - schema.org definition to version 30.1
 
@@ -95,7 +97,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release with schema definition version 12.0
 
 
-[Unreleased]: https://github.com/brotkrueml/schema-auto/compare/v2.6.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/schema-auto/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/brotkrueml/schema-auto/compare/v2.6.0...v3.0.0
 [2.6.0]: https://github.com/brotkrueml/schema-auto/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/brotkrueml/schema-auto/compare/v2.4.0...v2.5.0
 [2.4.0]: https://github.com/brotkrueml/schema-auto/compare/v2.3.0...v2.4.0
